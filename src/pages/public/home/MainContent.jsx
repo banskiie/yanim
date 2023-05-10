@@ -4,7 +4,7 @@ import maincontentimg from "../../../assets/img/homeportrait.png";
 
 const MainContent = () => {
   return (
-    <main className="bg-neutral w-full flex flex-row items-center justify-center text-primary gap-x-12 lg:gap-x-24 p-12 lg:p-24">
+    <main className="bg-neutral w-full h-screen flex flex-row items-center justify-center text-primary gap-x-12 lg:gap-x-24 m-auto ">
       <section className="flex flex-col gap-y-4">
         <Fade direction="left" cascade triggerOnce duration={1000}>
           <h1 className="font-display text-2xl lg:text-6xl">

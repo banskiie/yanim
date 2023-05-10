@@ -32,11 +32,11 @@ const Footer = () => {
               </div>
               <div className="flex flex-row gap-x-2 items-center justify-start">
                 <img className="w-4" src={fbicon} alt="" />
-                <a href="https://www.facebook.com/yanimevents/">yanimevents</a>
+                <a className="link-darker" href="https://www.facebook.com/yanimevents/">yanimevents</a>
               </div>
               <div className="flex flex-row gap-x-2 items-center justify-start">
                 <img className="w-4" src={igicon} alt="" />
-                <a href="https://www.instagram.com/yanimweddings/">
+                <a className="link-darker" href="https://www.instagram.com/yanimweddings/">
                   @yanimweddings
                 </a>
               </div>

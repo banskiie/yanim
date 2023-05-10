@@ -10,19 +10,19 @@ const Headline = () => {
         src={homeImage}
         alt=""
       />
-      <div className="absolute z-10 flex flex-col items-center mb-70 lg:mb-32">
+      <div className="absolute z-10 flex flex-col items-center m-auto">
         <Fade cascade triggerOnce duration={2000}>
           <h1 className="w-[42rem] lg:w-[70rem] select-none text-center font-display text-7xl lg:text-9xl text-secondary">
             Making Your Dream Wedding A Reality.
           </h1>
-          <button className="flex flex-row items-center justify-between gap-x-2 text-secondary font-primary text-2xl lg:text-3xl bg-primary bg-opacity-80 mt-12 px-10 py-3 rounded-xl hover:bg-darker hover:text-accent ease-in-out duration-200">
+          <button className="btn flex flex-row items-center justify-center gap-x-2 text-secondary bg-primary border-none h-16 w-80 font-primary text-2xl lg:text-3xl bg-opacity-80 mt-12 rounded-xl hover:text-lighter hover:bg-darker ease-in-out duration-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-8 h-8 lg:w-8 lg:h-8"
+              className="w-6 h-6 lg:w-8 lg:h-8"
             >
               <path
                 strokeLinecap="round"

@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const ClientRegister = () => {
   return (
     <div className="grid place-items-center">
-      <div className="bg-slate-100 bg-opacity-95 absolute z-10 p-8 flex flex-col items-start justify-center rounded-lg drop-shadow-2xl mb-16">
+      <div className="bg-slate-100 bg-opacity-95 absolute z-10 p-8 flex flex-col items-start justify-center rounded-lg drop-shadow-2xl mt-16">
         <div className="text-4xl font-semibold w-full pb-8 flex flex-row items-center justify-center gap-x-2 text-darker select-none">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -116,10 +116,10 @@ const ClientRegister = () => {
           </div>
         </div>
 
-        <button className="w-full bg-gradient-to-r text-md from-primary to-lighter text-neutral font-sans font-semibold text-xl mt-8 py-2 rounded-2xl hover:from-darker hover:to-primary hover:text-accent ">
+        <button className="btn w-full bg-gradient-to-r text-md from-primary to-lighter text-neutral font-sans font-semibold text-xl mt-8 py-2 rounded-2xl hover:from-darker hover:to-primary hover:text-accent ">
           REGISTER
         </button>
-        <span className="w-full text-center text-xl pt-3 select-none font-display">
+        <span className="w-full text-center text-xl pt-3 select-none font-display text-lighter">
           Already have an account?{" "}
           <NavLink
             to="/client_login"

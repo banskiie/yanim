@@ -2,17 +2,14 @@ import React, { useContext } from "react";
 import loginbg from "../../../assets/img/loginbg.jpg";
 import { NavLink } from "react-router-dom";
 import googleicon from "../../../assets/svg/login-icons/google.svg";
-import fbicon from "../../../assets/svg/login-icons/facebook.svg";
-import twittericon from "../../../assets/svg/login-icons/twitter.svg";
 import { AuthContext } from "../../../context/AuthContext";
-import { auth } from "../../../config/firebase";
 
 const ClientLogin = () => {
   const authCtx = useContext(AuthContext);
 
   return (
     <div className="grid place-items-center">
-      <div className="bg-slate-100 bg-opacity-95 absolute z-10 p-8 flex flex-col items-start justify-center rounded-lg drop-shadow-2xl mb-16">
+      <div className="bg-slate-100 bg-opacity-95 absolute z-10 p-8 flex flex-col items-start justify-center rounded-lg drop-shadow-2xl mt-16">
         <div className="text-4xl font-semibold w-full pb-8 flex flex-row items-center justify-center gap-x-2 text-darker select-none">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -20,7 +17,7 @@ const ClientLogin = () => {
             viewBox="0 0 24 24"
             strokeWidth="1.5"
             stroke="currentColor"
-            className="w-10 h-10 stroke-darker ease-in-out duration-200"
+            className="w-10 h-10 stroke-darker"
           >
             <path
               strokeLinecap="round"
@@ -29,6 +26,22 @@ const ClientLogin = () => {
             />
           </svg>
           <span>Client</span>
+        </div>
+
+        <div className="w-full flex flex-row items-center justify-center gap-x-4">
+          <button
+            onClick={authCtx.signInWithGoogle}
+            className="btn w-full flex flex-row items-center justify-center gap-x-2 bg-transparent text-md text-slate-500 font-sans text-xl py-2 rounded-2xl border-[1px] border-slate-500 hover:border-transparent hover:bg-accent hover:text-darker hover:drop-shadow-md ease-in-out duration-200"
+          >
+            <img className="h-5" src={googleicon} alt="Google icon for login" />
+            LOGIN WITH GOOGLE
+          </button>
+        </div>
+
+        <div className="my-2 w-full flex items-center before:mt-0.5 before:flex-1 before:border-t before:border-slate-400 after:mt-0.5 after:flex-1 after:border-t after:border-slate-400">
+          <p className="mx-4 text-center font-semibold dark:text-slate-400">
+            OR
+          </p>
         </div>
 
         <label
@@ -59,44 +72,22 @@ const ClientLogin = () => {
           className="w-96 text-xl font-sans bg-transparent border-b-[3px] border-darker mt-2 py-1 outline-none  text-primary font-semibold focus:text-darker"
           type="password"
           maxLength={50}
-          placeholder="••••••••"
+          placeholder="••••••••••"
           aria-required
         />
-
-        <button className="w-full bg-gradient-to-r text-md from-primary to-lighter text-neutral font-sans font-semibold text-xl mt-6 py-2 rounded-2xl hover:from-darker hover:to-primary hover:text-accent">
-          LOGIN
-        </button>
-
-        <div className="my-4 w-full flex items-center before:mt-0.5 before:flex-1 before:border-t before:border-slate-400 after:mt-0.5 after:flex-1 after:border-t after:border-slate-400">
-          <p className="mx-4 mb-0 text-center font-semibold dark:text-slate-400">
-            OR
-          </p>
-        </div>
-
-        <div className="w-full flex flex-row items-center justify-center gap-x-4">
-          <button onClick={authCtx.signInWithGoogle}>
-            <img className="h-8" src={googleicon} alt="Google icon for login" />
-          </button>
-          <button>
-            <img className="h-8" src={fbicon} alt="Facebook icon for login" />
-          </button>
-          <button>
-            <img
-              className="h-8"
-              src={twittericon}
-              alt="Twitter icon for login"
-            />
-          </button>
-        </div>
-        <span className="w-full text-center text-xl pt-6 select-none font-display">
-          Don't have an account?{" "}
+        <div className="w-full flex flex-row justify-between text-md pt-2 select-none font-display text-lighter">
           <NavLink
             to="/register"
             className="text-primary hover:text-darker ease-in-out duration-150"
           >
-            Sign Up.
+            Don't have an account?
           </NavLink>
-        </span>
+          <span>Forgot Password?</span>
+        </div>
+
+        <button className="btn w-full bg-gradient-to-r text-md from-primary to-lighter text-neutral font-sans font-semibold text-xl mt-6 py-2 rounded-2xl hover:from-darker hover:to-primary hover:text-accent hover:drop-shadow-md">
+          LOGIN
+        </button>
       </div>
       <section className="bg-black">
         <img
