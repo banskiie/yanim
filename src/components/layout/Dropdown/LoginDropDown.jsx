@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const LoginDropDown = () => {
   return (
     <div className="dropdown flex flex-col items-center">
-      <label tabindex="0" className="cursor-pointer">
+      <label tabIndex="0" className="cursor-pointer">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -20,7 +20,7 @@ const LoginDropDown = () => {
           />
         </svg>
       </label>
-      <ul tabindex="0" className="dropdown-content pt-10">
+      <ul tabIndex="0" className="dropdown-content pt-10">
         <li>
           <NavLink
             className="tooltip tooltip-left flex flex-col items-center justify-center"

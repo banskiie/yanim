@@ -28,6 +28,7 @@ export default {
       fontFamily: {
         display: ["Belleza", "sans-serif"],
         primary: ["Playfair Display", "serif"],
+        alex: ["Alex Brush", "cursive"]
       },
     },
   },
