@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="w-9/12 h-4/5 flex flex-row justify-around items-center">
           <div className="w-1/3 h-full grid place-items-center border-r-2 border-darker border-opacity-50">
             <img
-              className="w-1/2"
+              className="w-1/3"
               src={yanimLogo}
               alt="Yani M Logo for footer"
             />
@@ -36,7 +36,7 @@ const Footer = () => {
               </div>
               <div className="flex flex-row gap-x-2 items-center justify-start">
                 <img className="w-4" src={igicon} alt="" />
-                <a className="link-darker" href="https://www.instagram.com/yanimweddings/">
+                <a  href="https://www.instagram.com/yanimweddings/">
                   @yanimweddings
                 </a>
               </div>

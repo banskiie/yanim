@@ -20,10 +20,7 @@ const LoginDropDown = () => {
           />
         </svg>
       </label>
-      <ul
-        tabindex="0"
-        className="dropdown-content pt-10"
-      >
+      <ul tabindex="0" className="dropdown-content pt-10">
         <li>
           <NavLink
             className="tooltip tooltip-left flex flex-col items-center justify-center"
