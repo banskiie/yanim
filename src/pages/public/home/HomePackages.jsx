@@ -25,7 +25,7 @@ const HomePackages = () => {
           direction="right"
           className="w-full flex flex-col items-center bg-neutral"
         >
-          <div className="h-44 w-10/12 bg-black">
+          <div className="h-44 w-10/12 bg-black rounded-xl">
             <AnimatePresence>
               {showGB && (
                 <div
@@ -52,7 +52,7 @@ const HomePackages = () => {
             <img
               className={`w-full h-full object-cover grayscale ${
                 showGB && "grayscale-0 opacity-70"
-              } cursor-pointer ease-in-out duration-700`}
+              } cursor-pointer ease-in-out duration-700 rounded-xl`}
               src={granboda}
               alt="Gran Boda image"
               onMouseEnter={() => {
@@ -63,7 +63,7 @@ const HomePackages = () => {
               }}
             />
           </div>
-          <div className="h-44 w-10/12 bg-black">
+          <div className="h-44 w-10/12 bg-black rounded-xl">
             <AnimatePresence>
               {showGBO && (
                 <div className="absolute h-44 w-10/12 grid place-items-center cursor-pointer">
@@ -86,7 +86,7 @@ const HomePackages = () => {
             <img
               className={`w-full h-full object-cover grayscale ${
                 showGBO && "grayscale-0 opacity-70"
-              } cursor-pointer ease-in-out duration-700`}
+              } cursor-pointer ease-in-out duration-700 rounded-xl`}
               src={granbodaotd}
               alt="Gran Boda on-the-day image"
               onMouseEnter={() => {
@@ -97,7 +97,7 @@ const HomePackages = () => {
               }}
             />
           </div>
-          <div className="h-44 w-10/12 bg-black">
+          <div className="h-44 w-10/12 bg-black rounded-xl">
             <AnimatePresence>
               {showIB && (
                 <div className="absolute h-44 w-10/12 grid place-items-center cursor-pointer">
@@ -120,7 +120,7 @@ const HomePackages = () => {
             <img
               className={`w-full h-full object-cover grayscale ${
                 showIB && "grayscale-0 opacity-70"
-              } cursor-pointer ease-in-out duration-700`}
+              } cursor-pointer ease-in-out duration-700 rounded-xl`}
               src={intimaboda}
               alt="Intima Boda image"
               onMouseEnter={() => {
