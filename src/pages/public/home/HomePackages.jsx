@@ -21,7 +21,6 @@ const HomePackages = () => {
       <div className="w-full flex flex-col items-center bg-neutral pb-24 gap-y-8">
         <Fade
           triggerOnce
-          cascade
           direction="right"
           className="w-full flex flex-col items-center bg-neutral"
         >

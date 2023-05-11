@@ -3,7 +3,7 @@ import ht from "../../../assets/img/hometestimonial/ht.jpg";
 
 const Testimonial = () => {
   return (
-    <div className="w-full bg-primary shadow-2xl flex font-alex flex-col items-center justify-center py-12 gap-y-4">
+    <div className="w-full z-10 bg-primary shadow-2xl flex font-alex flex-col items-center justify-center py-12 gap-y-4">
       <span className="text-secondary engraved-text text-7xl">
         Love Letter From Our Past Client
       </span>

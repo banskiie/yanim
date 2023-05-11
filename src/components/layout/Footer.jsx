@@ -7,40 +7,37 @@ import igicon from "../../assets/svg/footer-icons/ig.svg";
 
 const Footer = () => {
   return (
-    <div className="w-full">
-      <div className="h-48 bg-secondary flex justify-center items-center">
-        <div className="w-9/12 h-4/5 flex flex-row justify-around items-center">
-          <div className="w-1/3 h-full grid place-items-center border-r-2 border-darker border-opacity-50">
-            <img
-              className="w-1/3"
-              src={yanimLogo}
-              alt="Yani M Logo for footer"
-            />
+    <div className="w-full z-10">
+      <div className=" bg-accent flex flex-col justify-center items-center text-darker py-8 gap-y-4">
+        <div>
+          <span className="text-5xl font-thin">Yani M. Wedding & Events</span>
+        </div>
+        <div className="flex flex-row gap-x-3">
+          <div className="flex flex-row gap-x-2 items-center justify-start">
+            <img className="w-4" src={contnoicon} alt="" />
+            <span>09123457678</span>
           </div>
-          <div className="w-1/3 h-full grid place-items-center border-r-2 border-darker border-opacity-50">
-            <p>Contact</p>
+          <span>|</span>
+          <div className="flex flex-row items-center justify-start">
+            <img className="w-4" src={gmailicon} alt="" />
+            <span>yanimevents@gmail.com</span>
           </div>
-          <div className="w-1/3 h-full grid place-items-center text-darker">
-            <div className="flex flex-col">
-              <div className="flex flex-row gap-x-2 items-center justify-start">
-                <img className="w-4" src={gmailicon} alt="" />
-                <span>yanimevents@gmail.com</span>
-              </div>
-              <div className="flex flex-row gap-x-2 items-center justify-start">
-                <img className="w-4" src={contnoicon} alt="" />
-                <span>09123457678</span>
-              </div>
-              <div className="flex flex-row gap-x-2 items-center justify-start">
-                <img className="w-4" src={fbicon} alt="" />
-                <a className="link-darker" href="https://www.facebook.com/yanimevents/">yanimevents</a>
-              </div>
-              <div className="flex flex-row gap-x-2 items-center justify-start">
-                <img className="w-4" src={igicon} alt="" />
-                <a  href="https://www.instagram.com/yanimweddings/">
-                  @yanimweddings
-                </a>
-              </div>
-            </div>
+          <span>|</span>
+          <div className="flex flex-row gap-x-2 items-center justify-start">
+            <img className="w-4" src={fbicon} alt="" />
+            <a
+              className="link-darker"
+              href="https://www.facebook.com/yanimevents/"
+            >
+              yanimevents
+            </a>
+          </div>
+          <span>|</span>
+          <div className="flex flex-row gap-x-2 items-center justify-start">
+            <img className="w-4" src={igicon} alt="" />
+            <a href="https://www.instagram.com/yanimweddings/">
+              @yanimweddings
+            </a>
           </div>
         </div>
       </div>
