@@ -18,7 +18,7 @@ const Footer = () => {
             <span>09123457678</span>
           </div>
           <span>|</span>
-          <div className="flex flex-row items-center justify-start">
+          <div className="flex flex-row gap-x-2 items-center justify-start">
             <img className="w-4" src={gmailicon} alt="" />
             <span>yanimevents@gmail.com</span>
           </div>
