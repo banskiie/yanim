@@ -11,10 +11,12 @@ const HomePackages = () => {
   const [showIB, setShowIB] = useState(false);
   return (
     <>
-      <div className=" bg-neutral w-full flex pb-6 items-center before:mt-0.5 before:flex-1 before:border-t-4 before:border-lighter before:border-opacity-40 after:mt-0.5 after:flex-1 after:border-t-4 after:border-lighter after:border-opacity-40">
-        <p className="mx-4 text-center text-7xl lg:text-8xl font-alex dark:text-primary">
-          Packages
-        </p>
+      <div className=" bg-neutral w-full flex pb-6 items-center before:mt-0.5 before:flex-1 before:border-t-[3px]  before:border-primary before:border-opacity-40 after:mt-0.5 after:flex-1 after:border-t-[3px] after:border-primary after:border-opacity-40">
+        <Fade triggerOnce>
+          <p className="engraved-text mx-4 text-center text-7xl lg:text-8xl font-alex dark:text-primary">
+            Packages
+          </p>
+        </Fade>
       </div>
       <div className="w-full flex flex-col items-center bg-neutral pb-24 gap-y-8">
         <Fade
@@ -24,12 +26,16 @@ const HomePackages = () => {
           className="w-full flex flex-col items-center bg-neutral"
         >
           <div className="h-44 w-10/12 bg-black">
-            {showGB && (
-              <AnimatePresence>
-                <div className="absolute h-44 w-10/12 grid place-items-center cursor-pointer">
+            <AnimatePresence>
+              {showGB && (
+                <div
+                  id="test"
+                  className="absolute h-44 w-10/12 grid place-items-center cursor-pointer"
+                >
                   <motion.span
                     initial={{ opacity: 0 }}
-                    animate={{ opacity: 0.99, transition: { duration: 0.7 } }}
+                    animate={{ opacity: 1, transition: { duration: 0.7 } }}
+                    exit={{ opacity: 0 }}
                     className="z-10 text-7xl lg:text-8xl font-thin text-accent font-alex"
                     onMouseEnter={() => {
                       setShowGB(true);
@@ -41,8 +47,8 @@ const HomePackages = () => {
                     Gran Boda
                   </motion.span>
                 </div>
-              </AnimatePresence>
-            )}
+              )}
+            </AnimatePresence>
             <img
               className={`w-full h-full object-cover grayscale ${
                 showGB && "grayscale-0 opacity-70"
@@ -58,13 +64,13 @@ const HomePackages = () => {
             />
           </div>
           <div className="h-44 w-10/12 bg-black">
-            {showGBO && (
-              <AnimatePresence>
+            <AnimatePresence>
+              {showGBO && (
                 <div className="absolute h-44 w-10/12 grid place-items-center cursor-pointer">
                   <motion.span
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1, transition: { duration: 0.7 } }}
-                    className="z-10 text-7xl lg:text-8xl font-thin text-white font-alex"
+                    className="z-10 text-7xl lg:text-8xl font-thin text-secondary font-alex"
                     onMouseEnter={() => {
                       setShowGBO(true);
                     }}
@@ -75,8 +81,8 @@ const HomePackages = () => {
                     Gran Boda On-The-Day
                   </motion.span>
                 </div>
-              </AnimatePresence>
-            )}
+              )}
+            </AnimatePresence>
             <img
               className={`w-full h-full object-cover grayscale ${
                 showGBO && "grayscale-0 opacity-70"
@@ -92,13 +98,13 @@ const HomePackages = () => {
             />
           </div>
           <div className="h-44 w-10/12 bg-black">
-            {showIB && (
-              <AnimatePresence>
+            <AnimatePresence>
+              {showIB && (
                 <div className="absolute h-44 w-10/12 grid place-items-center cursor-pointer">
                   <motion.span
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1, transition: { duration: 0.7 } }}
-                    className="z-10 inset-0 text-7xl lg:text-8xl font-thin text-secondary font-alex"
+                    className="z-10 inset-0 text-7xl lg:text-8xl font-thin text-neutral font-alex"
                     onMouseEnter={() => {
                       setShowIB(true);
                     }}
@@ -109,8 +115,8 @@ const HomePackages = () => {
                     Intima Boda
                   </motion.span>
                 </div>
-              </AnimatePresence>
-            )}
+              )}
+            </AnimatePresence>
             <img
               className={`w-full h-full object-cover grayscale ${
                 showIB && "grayscale-0 opacity-70"

@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 
 const MainContent = () => {
   return (
-    <main className="bg-neutral w-full h-screen flex flex-row items-center justify-center text-primary gap-x-12 lg:gap-x-24 m-auto ">
+    <main className="bg-neutral w-full h-screen flex flex-row items-center justify-center text-primary gap-x-12 lg:gap-x-24 p-auto m-auto">
       <section className="flex flex-col gap-y-4">
         <Fade direction="left" cascade triggerOnce duration={1000}>
           <h1 className="font-display text-2xl lg:text-6xl">
@@ -51,7 +51,7 @@ const MainContent = () => {
           </div>
         </Fade>
       </section>
-      <Fade triggerOnce delay={1800}>
+      <Fade triggerOnce delay={2400}>
         <div className="border-[1px] border-primary p-4 lg:p-8">
           <img
             className="border-[1px] border-primary w-72 h-72 lg:w-[28rem] lg:h-[28rem] object-cover"
