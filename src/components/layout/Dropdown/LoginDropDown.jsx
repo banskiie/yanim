@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const LoginDropDown = () => {
+const LoginDropDown = ({ darkNav }) => {
   return (
     <div className="dropdown flex flex-col items-center">
       <label tabIndex="0" className="cursor-pointer">
@@ -11,7 +11,11 @@ const LoginDropDown = () => {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="h-10 w-10 mx-4 stroke-secondary hover:stroke-primary ease-in-out duration-200"
+          className={`h-10 w-10 mx-4 ${
+            darkNav
+              ? "stroke-darker hover:stroke-lighter"
+              : "stroke-secondary hover:stroke-primary"
+          } ease-in-out duration-200`}
         >
           <path
             strokeLinecap="round"
@@ -33,7 +37,11 @@ const LoginDropDown = () => {
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"
-              className="w-10 h-10 stroke-secondary hover:stroke-primary ease-in-out duration-200"
+              className={`w-10 h-10 ${
+                darkNav
+                  ? "stroke-darker hover:stroke-lighter"
+                  : "stroke-secondary hover:stroke-primary"
+              } ease-in-out duration-200`}
             >
               <path
                 strokeLinecap="round"
@@ -55,7 +63,11 @@ const LoginDropDown = () => {
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"
-              className="w-10 h-10 stroke-secondary hover:stroke-primary ease-in-out duration-200"
+              className={`w-10 h-10 ${
+                darkNav
+                  ? "stroke-darker hover:stroke-lighter"
+                  : "stroke-secondary hover:stroke-primary"
+              } ease-in-out duration-200`}
             >
               <path
                 strokeLinecap="round"

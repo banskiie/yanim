@@ -3,8 +3,8 @@ import ht from "../../../assets/img/hometestimonial/ht.jpg";
 
 const Testimonial = () => {
   return (
-    <div className="w-full z-10 bg-primary shadow-2xl flex font-alex flex-col items-center justify-center py-12 gap-y-4">
-      <span className="text-secondary engraved-text text-7xl">
+    <div className="w-full z-10 bg-primary shadow-2xl flex  flex-col items-center justify-center py-12 gap-y-4">
+      <span className="text-secondary engraved-text text-7xl font-alex">
         Love Letter From Our Past Client
       </span>
       <img
@@ -12,11 +12,11 @@ const Testimonial = () => {
         src={ht}
         alt="Yen & Cris wedding picture"
       />
-      <article className="text-white w-3/5 text-3xl text-center ">
+      <article className="text-white w-3/5 text-2xl font-display text-center ">
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
         nam est nostrum nisi saepe perferendis rem rerum in. Quibusdam, odio
         cumque iusto sapiente consequatur aperiam dolor quaerat quas quasi
-        recusandae.""
+        recusandae."
       </article>
       <quote className="text-2xl flex items-center justify-center gap-x-2">
         - Yen & Cris{" "}

@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "../pages/public/home/Home";
 import AboutUs from "../pages/public/about/AboutUs";
 import Services from "../pages/public/services/Services";
-import Gallery from "../pages/public/gallery/Gallery";
+import Portfolio from "../pages/public/portfolio/Portfolio";
 import Contact from "../pages/public/contact/Contact";
 import ClientLogin from "../pages/public/logins/ClientLogin";
 import ClientRegister from "../pages/public/logins/ClientRegister";
@@ -15,7 +15,7 @@ export const PublicRoutes = () => {
       <Route path="/" index Component={Home} />
       <Route path="/about" Component={AboutUs} />
       <Route path="/services" Component={Services} />
-      <Route path="/gallery" Component={Gallery} />
+      <Route path="/portfolio" Component={Portfolio} />
       <Route path="/contact" Component={Contact} />
       <Route path="/client_login" Component={ClientLogin} />
       <Route path="/register" Component={ClientRegister} />

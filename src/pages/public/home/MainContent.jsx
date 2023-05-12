@@ -29,9 +29,9 @@ const MainContent = () => {
             <h2>Every union is worth celebrating!</h2>
             <h2>We’d love to celebrate with you!</h2>
           </div>
-          <div className="w-full flex justify-center">
+          <div className="w-full flex">
             <NavLink
-              className="btn w-60 text-xl flex flex-row items-center justify-center gap-x-2"
+              className="text-darker uppercase font-bold hover:pl-5 ease-in-out duration-200 hover:text-lighter text-xl flex flex-row items-center justify-center gap-x-2"
               to="/about"
             >
               <span>Meet Our Team!</span>
