@@ -9,9 +9,9 @@ const Footer = () => {
   return (
     <div className="w-full z-10">
       <div className=" bg-accent flex flex-col justify-center items-center text-darker py-8 gap-y-4">
-        <div>
+        {/* <div>
           <span className="text-5xl font-thin">Yani M. Wedding & Events</span>
-        </div>
+        </div> */}
         <div className="flex flex-row gap-x-3">
           <div className="flex flex-row gap-x-2 items-center justify-start">
             <img className="w-4" src={contnoicon} alt="" />
@@ -42,7 +42,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="h-10 px-12 bg-darker text-white font-thin flex flex-row justify-between items-center">
-        <span>All Rights Reserved | Yani M. Wedding and Events</span>
+        <span>All Rights Reserved | Yani M. Wedding and Events 2023</span>
         <a href="https://shand-dev.vercel.app">Designed by Ivan Sinohon</a>
       </div>
     </div>

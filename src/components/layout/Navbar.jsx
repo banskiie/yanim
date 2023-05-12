@@ -19,7 +19,7 @@ const Navbar = () => {
   }, [location]);
 
   return (
-    <div className="absolute navbar bg-transparent w-full h-20 px-4 md:px-16 flex flex-row justify-between items-center z-10">
+    <div className="absolute navbar bg-transparent w-full h-20 px-4 flex flex-row justify-between items-center z-50">
       <Fade triggerOnce direction="left" cascade duration={750}>
         <div>
           <NavLink to="/">
