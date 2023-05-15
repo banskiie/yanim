@@ -2,7 +2,7 @@ import React from "react";
 
 const WallOfText = () => {
   return (
-    <div className="-z-20 font-alex text-4xl text-justify text-darker text-opacity-10 -mt-8 overflow-hidden">
+    <div className="-z-20 font-alex text-4xl text-justify text-darker text-opacity-10 -mt-4">
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa reiciendis
       repellat aut id voluptas. Aliquam, qui autem. Pariatur qui autem molestiae
       amet provident, rem deserunt tempora nesciunt laudantium! Ipsa expedita

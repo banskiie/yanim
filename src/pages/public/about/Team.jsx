@@ -9,7 +9,7 @@ const Team = () => {
   return (
     <>
       <WallOfText />
-      <div className="absolute mt-[27rem] flex flex-col justify-center items-center">
+      <div className="absolute mt-[26rem] flex flex-col justify-center items-center">
         <h1 className=" text-8xl text-darker font-alex engraved-text">
           Meet The Team!
         </h1>

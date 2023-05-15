@@ -5,7 +5,7 @@ import Owner from "./Owner";
 
 const AboutUs = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center w-screen">
       <AboutIntro />
       <Team />
       <Owner />
