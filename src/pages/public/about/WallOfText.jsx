@@ -75,9 +75,17 @@ const WallOfText = () => {
       veniam tenetur facere dolores optio hic magni qui recusandae esse atque!
       Porro reprehenderit error iusto, molestias inventore repudiandae
       voluptatum cumque praesentium est vel quasi, voluptate ex illum
-      necessitatibus sed odio impedit nostrum commodi labore sunt? Officiis
-      explicabo, aliquid et, corporis ab, dolorem aspernatur voluptatum eum fuga
-      illum magni esse recusandae numquam.
+      necessitatibus sed odio impedit nostrum commodi Cris Orot labore sunt?
+      Officiis explicabo, aliquid et, corporis ab, dolorem aspernatur voluptatum
+      eum fuga illum magni esse recusandae numquam. Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit. Sed mollitia quaerat consectetur. Commodi
+      voluptates distinctio animi laboriosam, libero molestiae minus, rem
+      aliquam cum assumenda, sapiente beatae doloribus incidunt est dolorum
+      error magnam et perspiciatis corporis iure quaerat aperiam doloremque
+      corrupti. Sed impedit saepe velit voluptatem? Eius facilis facere
+      possimus, cupiditate illo dolorem ex ipsam quas! Totam architecto eveniet
+      unde fuga voluptates, facilis ad ullam sapiente labore deserunt, dolores
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, est!
     </div>
   );
 };
