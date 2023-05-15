@@ -69,6 +69,7 @@ const HomePackages = () => {
                   <motion.span
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1, transition: { duration: 0.7 } }}
+                    exit={{ opacity: 0 }}
                     className="z-10 text-7xl lg:text-8xl font-thin text-secondary font-alex"
                     onMouseEnter={() => {
                       setShowGBO(true);
@@ -103,6 +104,7 @@ const HomePackages = () => {
                   <motion.span
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1, transition: { duration: 0.7 } }}
+                    exit={{ opacity: 0 }}
                     className="z-10 inset-0 text-7xl lg:text-8xl font-thin text-neutral font-alex"
                     onMouseEnter={() => {
                       setShowIB(true);
