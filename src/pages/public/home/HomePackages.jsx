@@ -18,11 +18,11 @@ const HomePackages = () => {
           </p>
         </Fade>
       </div>
-      <div className="w-full flex flex-col items-center bg-neutral pb-24 gap-y-8">
+      <div className="w-full flex flex-col justify-center items-center bg-neutral pb-24 gap-y-8">
         <Fade
           triggerOnce
           direction="right"
-          className="w-full flex flex-col items-center bg-neutral"
+          className="w-full flex flex-col justify-center items-center bg-neutral"
         >
           <div className="h-44 w-10/12 bg-black rounded-xl">
             <AnimatePresence>
