@@ -81,7 +81,7 @@ const Team = () => {
             </div>
           </div>
           {/* OTD */}
-          <div className="grid grid-cols-2 md:grid-cols-4 md:w-8/12 mx-auto md:py-4">
+          <div className="grid grid-cols-2 md:grid-cols-4 w-10/12 md:w-8/12 mx-auto md:py-4">
             <div className="grid place-items-center pb-6">
               <img
                 className="w-28 h-28 md:w-48 md:h-48 object-cover rounded-full border-4 border-opacity-75 border-secondary drop-shadow-2xl"
@@ -135,7 +135,7 @@ const Team = () => {
               </h2>
             </div>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-5 md:w-10/12 mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-5 w-10/12 mx-auto">
             <div className="grid place-items-center pb-6">
               <img
                 className="w-28 h-28 md:w-48 md:h-48 object-cover rounded-full border-4 border-opacity-75 border-secondary drop-shadow-2xl"

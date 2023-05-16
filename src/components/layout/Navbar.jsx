@@ -94,7 +94,9 @@ const Navbar = () => {
           </Fade>
         </>
       ) : (
-        <MobileDropDown darkNav={mobileCtx.darkNav} />
+        <Fade triggerOnce direction="right" cascade duration={750}>
+          <MobileDropDown darkNav={mobileCtx.darkNav} />
+        </Fade>
       )}
     </div>
   );
