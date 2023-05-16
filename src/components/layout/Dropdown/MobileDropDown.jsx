@@ -55,7 +55,7 @@ const MobileDropDown = () => {
             <path d="M512 65C264.6 65 64 265.6 64 513s200.6 448 448 448 448-200.6 448-448S759.4 65 512 65zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z" />
           </svg>
         </div>
-        <div className="flex flex-col justify-center items-center h-screen w-screen divide-y-[1px] divide-darker">
+        <div className="flex flex-col justify-center items-center h-screen w-screen pb-16 divide-y-[1px] divide-darker">
           <NavLink
             onClick={handleClick}
             className="hover:text-lighter w-48 text-center py-4"
