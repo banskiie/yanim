@@ -4,16 +4,16 @@ import abtplannerinfo from "../../../assets/img/aboutplanner/about-the-planner.p
 
 const Owner = () => {
   return (
-    <div className="flex flex-row w-screen items-center justify-center pt-16">
+    <div className="flex flex-col md:flex-row w-screen items-center justify-center md:pt-16 gap-4 md:gap-0">
       <img
         src={abtplanner}
         alt="A picture of the owners"
-        className="w-[45rem] object-cover rounded-lg -z-10 mb-[40rem] shadow-xl border-4 border-primary engraved"
+        className="w-80 md:w-[45rem] object-cover rounded-lg -z-10 md:mb-[40rem] shadow-xl md:border-4 md:border-primary md:engraved"
       />
       <img
         src={abtplannerinfo}
         alt="About the planner information"
-        className="w-[45rem] object-cover rounded-lg -ml-72 shadow-2xl engraved"
+        className="w-80 md:w-[45rem] object-cover rounded-lg md:-ml-72 shadow-2xl md:engraved"
       />
     </div>
   );
