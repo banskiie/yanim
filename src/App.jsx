@@ -5,7 +5,7 @@ import Footer from "./components/layout/Footer";
 
 const App = () => {
   return (
-    <div className="w-full relative flex flex-col">
+    <div className="w-full flex flex-col">
       <Navbar />
       <PublicRoutes />
       <Footer />

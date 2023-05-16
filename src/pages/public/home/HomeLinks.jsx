@@ -20,7 +20,7 @@ import c13 from "../../../assets/img/homecarousel/c13.jpg";
 
 const HomeLinks = () => {
   return (
-    <div className="w-full flex flex-col items-center justify-center bg-neutral">
+    <div className="w-screen flex flex-col items-center justify-center bg-neutral">
       <div className=" bg-neutral w-full pb-6 pt-10 flex items-center before:mt-3 before:flex-1 before:border-t-[3px]  before:border-darker before:border-opacity-40 after:mt-3 after:flex-1 after:border-t-[3px] after:border-darker after:border-opacity-40">
         <Fade triggerOnce>
           <p className="engraved-text mx-4 text-center text-7xl lg:text-8xl font-alex dark:text-darker">
@@ -33,7 +33,7 @@ const HomeLinks = () => {
         infiniteLoop
         interval={3000}
         dynamicHeight
-        className="px-32"
+        className="px-4 md:px-32 w-screen"
       >
         <div>
           <img className="object-cover" src={c1} />
@@ -80,7 +80,7 @@ const HomeLinks = () => {
           <img src={yanimlogo} />
         </div>
       </div>
-      <div className="grid place-items-center pb-8 pt-2">
+      <div className="grid place-items-center pb-8 pt-2 px-10 text-center md:text-left">
         <p className="text-primary font-display text-xl">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit.
         </p>

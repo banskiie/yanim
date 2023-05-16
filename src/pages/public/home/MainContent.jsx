@@ -5,13 +5,13 @@ import { NavLink } from "react-router-dom";
 
 const MainContent = () => {
   return (
-    <main className="bg-neutral w-full h-screen flex flex-row items-center justify-center text-primary gap-x-12 lg:gap-x-24 p-auto m-auto">
-      <section className="flex flex-col gap-y-4">
+    <main className="bg-neutral w-full md:h-screen flex px-8 md:px-0 flex-col-reverse lg:flex-row items-center justify-center text-primary gap-x-12 lg:gap-x-24 p-auto m-auto">
+      <section className="flex flex-col gap-y-4 my-10 md:my-0">
         <Fade direction="left" cascade triggerOnce duration={1000}>
           <h1 className="font-display text-2xl lg:text-6xl">
             Welcome to Yani M.
           </h1>
-          <div className="w-56 lg:w-[30rem] text-[0.7rem] lg:text-xl">
+          <div className="md:w-[30rem] text-sm lg:text-xl">
             <p>
               We are a team that consists of young professionals from all walks
               of life. We are gathered by our passion to serve and anything
@@ -31,7 +31,7 @@ const MainContent = () => {
           </div>
           <div className="w-full flex">
             <NavLink
-              className="text-darker uppercase font-bold hover:pl-5 ease-in-out duration-200 hover:text-lighter text-xl flex flex-row items-center justify-center gap-x-2"
+              className="text-darker uppercase font-bold hover:pl-5 ease-in-out duration-200 hover:text-lighter md:text-xl flex flex-row items-center justify-center gap-x-2"
               to="/about"
             >
               <span>Meet Our Team!</span>
@@ -52,9 +52,9 @@ const MainContent = () => {
         </Fade>
       </section>
       <Fade triggerOnce delay={2400}>
-        <div className="border-[1px] border-primary p-4 lg:p-8">
+        <div className="border-[1px] border-primary p-4 lg:p-8 mt-10">
           <img
-            className="border-[1px] border-primary w-72 h-72 lg:w-[28rem] lg:h-[28rem] object-cover"
+            className="border-[1px] border-primary md:w-[28rem] md:h-[28rem] object-cover"
             src={maincontentimg}
             alt="A picture of a bride."
           />

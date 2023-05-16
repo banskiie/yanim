@@ -27,10 +27,7 @@ const HomePackages = () => {
           <div className="h-44 w-10/12 bg-black rounded-xl">
             <AnimatePresence>
               {showGB && (
-                <div
-                  id="test"
-                  className="absolute h-44 w-10/12 grid place-items-center cursor-pointer"
-                >
+                <div className="absolute h-44 w-10/12 grid place-items-center cursor-pointer">
                   <motion.span
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1, transition: { duration: 0.7 } }}
@@ -48,9 +45,12 @@ const HomePackages = () => {
                 </div>
               )}
             </AnimatePresence>
+            <span className="md:hidden absolute h-44 w-10/12 grid place-items-center cursor-pointer z-10 text-6xl font-thin text-accent font-alex">
+              Gran Boda
+            </span>
             <img
-              className={`w-full h-full object-cover grayscale ${
-                showGB && "grayscale-0 opacity-70"
+              className={`w-full h-full object-cover opacity-70 md:grayscale ${
+                showGB && "md:grayscale-0 md:opacity-70"
               } cursor-pointer ease-in-out duration-700 rounded-xl`}
               src={granboda}
               alt="Gran Boda image"
@@ -70,7 +70,7 @@ const HomePackages = () => {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1, transition: { duration: 0.7 } }}
                     exit={{ opacity: 0 }}
-                    className="z-10 text-7xl lg:text-8xl font-thin text-secondary font-alex"
+                    className="z-10 text-7xl lg:text-8xl text-center font-thin text-secondary font-alex"
                     onMouseEnter={() => {
                       setShowGBO(true);
                     }}
@@ -83,9 +83,12 @@ const HomePackages = () => {
                 </div>
               )}
             </AnimatePresence>
+            <span className="md:hidden absolute h-44 w-10/12 grid place-items-center cursor-pointer z-10 text-6xl text-center font-thin text-secondary font-alex">
+              Gran Boda On-The-Day
+            </span>
             <img
-              className={`w-full h-full object-cover grayscale ${
-                showGBO && "grayscale-0 opacity-70"
+              className={`w-full h-full object-cover opacity-70 md:grayscale ${
+                showGBO && "md:grayscale-0 md:opacity-70"
               } cursor-pointer ease-in-out duration-700 rounded-xl`}
               src={granbodaotd}
               alt="Gran Boda on-the-day image"
@@ -105,7 +108,7 @@ const HomePackages = () => {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1, transition: { duration: 0.7 } }}
                     exit={{ opacity: 0 }}
-                    className="z-10 inset-0 text-7xl lg:text-8xl font-thin text-neutral font-alex"
+                    className="z-10 inset-0 text-7xl lg:text-8xl font-thin text-secondary font-alex"
                     onMouseEnter={() => {
                       setShowIB(true);
                     }}
@@ -118,9 +121,12 @@ const HomePackages = () => {
                 </div>
               )}
             </AnimatePresence>
+            <span className="md:hidden absolute h-44 w-10/12 grid place-items-center cursor-pointer z-10 text-6xl text-center font-thin text-secondary font-alex">
+              Intima Boda
+            </span>
             <img
-              className={`w-full h-full object-cover grayscale ${
-                showIB && "grayscale-0 opacity-70"
+              className={`w-full h-full object-cover opacity-70 md:grayscale ${
+                showIB && "md:grayscale-0 md:opacity-70"
               } cursor-pointer ease-in-out duration-700 rounded-xl`}
               src={intimaboda}
               alt="Intima Boda image"

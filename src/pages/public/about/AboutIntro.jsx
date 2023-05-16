@@ -6,7 +6,7 @@ const AboutIntro = () => {
     <div className="w-screen h-[30rem] md:h-[22rem] flex flex-col items-center justify-start bg-neutral shadow-xl rounded-b-3xl">
       <div className="absolute w-full flex flex-col items-center">
         <div className="w-full flex py-1 pt-28 items-center before:mt-0 before:flex-1 before:border-t-[3px]  before:border-darker before:border-opacity-40 after:mt-0 after:flex-1 after:border-t-[3px] after:border-darker after:border-opacity-40">
-          <h1 className="text-7xl mx-3 font-alex text-darker engraved-text">
+          <h1 className="text-6xl md:text-7xl mx-3 font-alex text-darker engraved-text">
             About Us
           </h1>
         </div>

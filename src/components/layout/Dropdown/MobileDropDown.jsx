@@ -4,7 +4,12 @@ import { useContext } from "react";
 import { MobileContext } from "../../../context/MobileContext";
 
 const MobileDropDown = () => {
+  const body = document.getElementsByTagName("BODY")[0];
   const mobileCtx = useContext(MobileContext);
+
+  const disableScroll = () => {
+    body.classList.toggle("noscroll");
+  };
 
   const handleClick = () => {
     const elem = document.activeElement;
@@ -14,7 +19,7 @@ const MobileDropDown = () => {
   };
 
   return (
-    <div className="dropdown dropdown-end">
+    <div className="dropdown dropdown-end" onClick={disableScroll}>
       <label
         tabIndex={0}
         className="btn border-0 bg-transparent hover:bg-transparent hover:border-none"
