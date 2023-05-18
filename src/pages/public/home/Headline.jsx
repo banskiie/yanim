@@ -10,9 +10,9 @@ const Headline = () => {
         src={homeImage}
         alt=""
       />
-      <div className="absolute z-10 flex flex-col items-center m-auto">
+      <div className="absolute z-10 grid place-items-center m-auto">
         <Fade cascade triggerOnce duration={2000}>
-          <h1 className="w-full md:w-[42rem] lg:w-[70rem] select-none px-5 text-center font-display text-7xl lg:text-9xl text-secondary">
+          <h1 className="w-full md:w-[42rem] lg:w-[70rem] select-none px-5 text-center font-display text-6xl lg:text-9xl text-secondary">
             Making Your Dream Wedding A Reality.
           </h1>
           <button className="btn flex flex-row scale-90 md:scale-100 items-center justify-center gap-x-2 text-secondary bg-primary border-none h-16 w-80 font-primary text-2xl lg:text-3xl bg-opacity-80 mt-12 rounded-xl hover:text-lighter hover:bg-darker ease-in-out duration-200">

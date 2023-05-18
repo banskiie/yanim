@@ -8,12 +8,12 @@ const Owner = () => {
       <img
         src={abtplanner}
         alt="A picture of the owners"
-        className="w-4/5 md:w-[45rem] object-cover rounded-lg -z-10 md:mb-[40rem] shadow-xl md:border-4 md:border-primary md:engraved"
+        className="w-4/5 md:w-[45rem] object-cover rounded-lg -z-10 md:mb-[40rem] shadow-md md:border-4 md:border-primary md:engraved"
       />
       <img
         src={abtplannerinfo}
         alt="About the planner information"
-        className="w-4/5 md:w-[45rem] object-cover rounded-lg md:-ml-72 shadow-2xl md:engraved"
+        className="w-4/5 md:w-[45rem] object-cover rounded-lg md:-ml-72 shadow-md md:engraved"
       />
     </div>
   );

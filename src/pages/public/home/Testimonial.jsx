@@ -3,12 +3,12 @@ import ht from "../../../assets/img/testimonial/ht.jpg";
 
 const Testimonial = () => {
   return (
-    <div className="w-full z-10 bg-primary shadow-2xl flex  flex-col items-center justify-center py-12 gap-y-4">
+    <div className="w-full z-10 bg-primary flex  flex-col items-center justify-center py-12 gap-y-4">
       <span className="text-secondary engraved-text text-5xl md:text-7xl font-alex text-center px-5">
         Love Letter From Our Past Client
       </span>
       <img
-        className="h-56 rounded-full border-8 shadow-lg border-accent"
+        className="h-56 rounded-full border-8 border-accent"
         src={ht}
         alt="Yen & Cris wedding picture"
       />

@@ -11,17 +11,17 @@ const Navbar = () => {
   const mobileCtx = useContext(MobileContext);
 
   return (
-    <div className="absolute navbar w-full flex flex-col top-0 left-0">
+    <div className="sticky md:absolute bg-neutral md:bg-transparent navbar w-full -mb-32 flex flex-col top-0 left-0 z-50">
       <a
         href="mailto:yanimevents@gmail.com"
         target="_blank"
-        className="w-full bg-darker text-accent top-0 absolute h-8 hover:bg-primary cursor-pointer z-50"
+        className="w-full bg-darker text-accent hover:text-neutral top-0 absolute h-8 hover:bg-primary cursor-pointer z-50 ease-linear duration-200"
       >
         <p className="text-center mx-auto font-display uppercase text-[0.7rem] md:text-base">
           For more inquiries, email: yanimevents@gmail.com
         </p>
       </a>
-      <div className="w-screen bg-transparent mt-6 right-0 h-20 px-4 flex flex-row justify-between items-center z-20">
+      <div className="w-screen bg-transparent mt-6 right-0 h-16 md:h-20 px-4 flex flex-row justify-between items-center z-20">
         <Fade triggerOnce direction="left" cascade duration={750}>
           <div>
             <NavLink to="/">

@@ -3,7 +3,6 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Fade } from "react-awesome-reveal";
 import yanimlogo from "../../../assets/svg/yanimlogo.svg";
-import { motion } from "framer-motion";
 import c1 from "../../../assets/img/homecarousel/c1.jpg";
 import c2 from "../../../assets/img/homecarousel/c2.jpg";
 import c3 from "../../../assets/img/homecarousel/c3.jpg";

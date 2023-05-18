@@ -24,8 +24,13 @@ const MobileContextProvider = (props) => {
 
     if (windowSize <= 768) {
       setIsMobile(true);
+      setDarkNav(true);
     } else {
       setIsMobile(false);
+      if (location.pathname == "/about") {
+        return;
+      }
+      setDarkNav(false);
     }
 
     return () => window.removeEventListener("resize", resizeW);
