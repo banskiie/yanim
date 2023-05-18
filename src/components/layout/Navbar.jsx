@@ -11,7 +11,7 @@ const Navbar = () => {
   const mobileCtx = useContext(MobileContext);
 
   return (
-    <div className="sticky md:absolute bg-neutral md:bg-transparent navbar w-full -mb-32 flex flex-col top-0 left-0 z-50 overflow-x-hidden">
+    <div className="sticky md:absolute bg-neutral md:bg-transparent navbar w-full -mb-32 flex flex-col top-0 left-0 z-30">
       <a
         href="mailto:yanimevents@gmail.com"
         target="_blank"

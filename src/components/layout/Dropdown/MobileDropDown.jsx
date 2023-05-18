@@ -19,7 +19,7 @@ const MobileDropDown = () => {
   };
 
   return (
-    <div className="dropdown dropdown-end" onClick={disableScroll}>
+    <div className="dropdown dropdown-end z-50" onClick={disableScroll}>
       <label
         tabIndex={0}
         className="btn border-0 bg-transparent hover:bg-transparent hover:border-none"
