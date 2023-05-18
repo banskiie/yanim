@@ -34,7 +34,7 @@ const MobileContextProvider = (props) => {
     }
 
     return () => window.removeEventListener("resize", resizeW);
-  }, [windowSize]);
+  }, [windowSize, location]);
 
   return (
     <MobileContext.Provider value={{ isMobile, darkNav }}>
