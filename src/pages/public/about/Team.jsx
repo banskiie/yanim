@@ -14,6 +14,7 @@ import otd7 from "../../../assets/img/staff/11erika.jpg";
 import otd8 from "../../../assets/img/staff/12mich.jpg";
 import otd9 from "../../../assets/img/staff/13alexxa.jpg";
 import Owner from "./Owner";
+import AboutTestimonial from "./AboutTestimonial";
 
 const Team = () => {
   return (
@@ -27,7 +28,7 @@ const Team = () => {
           {/* OWNER */}
           <div className="flex flex-col justify-center items-center">
             <img
-              className="w-56 h-56 md:w-[28rem] md:h-[28rem] object-cover rounded-full border-[7px] border-opacity-75 border-secondary drop-shadow-2xl"
+              className="w-56 h-56 md:w-[28rem] md:h-[28rem] object-cover rounded-full border-[7px] border-opacity-75 border-secondary"
               src={headcoor}
               alt="Head Coordinator"
             />
@@ -42,7 +43,7 @@ const Team = () => {
           <div className="grid grid-cols-3 md:py-10 md:w-4/5 mx-auto">
             <div className="flex flex-col items-center justify-center h-72 -mt-12 md:-mt-32">
               <img
-                className="w-28 h-28 md:w-72 md:h-72 object-cover rounded-full border-[5.5px] border-opacity-75 border-secondary drop-shadow-2xl"
+                className="w-28 h-28 md:w-72 md:h-72 object-cover rounded-full border-[5.5px] border-opacity-75 border-secondary"
                 src={oic1}
                 alt="Head Coordinator"
               />
@@ -55,7 +56,7 @@ const Team = () => {
             </div>
             <div className="flex flex-col items-center justify-center h-72">
               <img
-                className="w-28 h-28 md:w-72 md:h-72 object-cover rounded-full border-4 border-opacity-75 border-secondary drop-shadow-2xl"
+                className="w-28 h-28 md:w-72 md:h-72 object-cover rounded-full border-4 border-opacity-75 border-secondary"
                 src={oic2}
                 alt="Head Coordinator"
               />
@@ -68,7 +69,7 @@ const Team = () => {
             </div>
             <div className="flex flex-col items-center justify-center h-72 -mt-12 md:-mt-32">
               <img
-                className="w-28 h-28 md:w-72 md:h-72 object-cover rounded-full border-4 border-opacity-75 border-secondary drop-shadow-2xl"
+                className="w-28 h-28 md:w-72 md:h-72 object-cover rounded-full border-4 border-opacity-75 border-secondary"
                 src={oic3}
                 alt="Head Coordinator"
               />
@@ -84,7 +85,7 @@ const Team = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 w-10/12 md:w-8/12 mx-auto md:py-4">
             <div className="grid place-items-center pb-6">
               <img
-                className="w-28 h-28 md:w-48 md:h-48 object-cover rounded-full border-4 border-opacity-75 border-secondary drop-shadow-2xl"
+                className="w-28 h-28 md:w-48 md:h-48 object-cover rounded-full border-4 border-opacity-75 border-secondary"
                 src={otd1}
                 alt="Head Coordinator"
               />
@@ -97,7 +98,7 @@ const Team = () => {
             </div>
             <div className="grid place-items-center pb-6">
               <img
-                className="w-28 h-28 md:w-48 md:h-48 object-cover rounded-full border-4 border-opacity-75 border-secondary drop-shadow-2xl"
+                className="w-28 h-28 md:w-48 md:h-48 object-cover rounded-full border-4 border-opacity-75 border-secondary"
                 src={otd2}
                 alt="Head Coordinator"
               />
@@ -110,7 +111,7 @@ const Team = () => {
             </div>
             <div className="grid place-items-center pb-6">
               <img
-                className="w-28 h-28 md:w-48 md:h-48 object-cover rounded-full border-4 border-opacity-75 border-secondary drop-shadow-2xl"
+                className="w-28 h-28 md:w-48 md:h-48 object-cover rounded-full border-4 border-opacity-75 border-secondary"
                 src={otd3}
                 alt="Head Coordinator"
               />
@@ -123,7 +124,7 @@ const Team = () => {
             </div>
             <div className="grid place-items-center pb-6">
               <img
-                className="w-28 h-28 md:w-48 md:h-48 object-cover rounded-full border-4 border-opacity-75 border-secondary drop-shadow-2xl"
+                className="w-28 h-28 md:w-48 md:h-48 object-cover rounded-full border-4 border-opacity-75 border-secondary"
                 src={otd4}
                 alt="Head Coordinator"
               />
@@ -138,7 +139,7 @@ const Team = () => {
           <div className="grid grid-cols-2 md:grid-cols-5 w-10/12 mx-auto">
             <div className="grid place-items-center pb-6">
               <img
-                className="w-28 h-28 md:w-48 md:h-48 object-cover rounded-full border-4 border-opacity-75 border-secondary drop-shadow-2xl"
+                className="w-28 h-28 md:w-48 md:h-48 object-cover rounded-full border-4 border-opacity-75 border-secondary"
                 src={otd5}
                 alt="Head Coordinator"
               />
@@ -151,7 +152,7 @@ const Team = () => {
             </div>
             <div className="grid place-items-center pb-6">
               <img
-                className="w-28 h-28 md:w-48 md:h-48 object-cover rounded-full border-4 border-opacity-75 border-secondary drop-shadow-2xl"
+                className="w-28 h-28 md:w-48 md:h-48 object-cover rounded-full border-4 border-opacity-75 border-secondary"
                 src={otd6}
                 alt="Head Coordinator"
               />
@@ -164,7 +165,7 @@ const Team = () => {
             </div>
             <div className="grid place-items-center pb-6">
               <img
-                className="w-28 h-28 md:w-48 md:h-48 object-cover rounded-full border-4 border-opacity-75 border-secondary drop-shadow-2xl"
+                className="w-28 h-28 md:w-48 md:h-48 object-cover rounded-full border-4 border-opacity-75 border-secondary"
                 src={otd7}
                 alt="Head Coordinator"
               />
@@ -177,7 +178,7 @@ const Team = () => {
             </div>
             <div className="grid place-items-center pb-6">
               <img
-                className="w-28 h-28 md:w-48 md:h-48 object-cover rounded-full border-4 border-opacity-75 border-secondary drop-shadow-2xl"
+                className="w-28 h-28 md:w-48 md:h-48 object-cover rounded-full border-4 border-opacity-75 border-secondary"
                 src={otd8}
                 alt="Head Coordinator"
               />
@@ -190,7 +191,7 @@ const Team = () => {
             </div>
             <div className="grid place-items-center pb-6">
               <img
-                className="w-28 h-28 md:w-48 md:h-48 object-cover rounded-full border-4 border-opacity-75 border-secondary drop-shadow-2xl"
+                className="w-28 h-28 md:w-48 md:h-48 object-cover rounded-full border-4 border-opacity-75 border-secondary"
                 src={otd9}
                 alt="Head Coordinator"
               />
@@ -204,6 +205,7 @@ const Team = () => {
           </div>
         </div>
         <Owner />
+        <AboutTestimonial />
       </div>
     </>
   );
